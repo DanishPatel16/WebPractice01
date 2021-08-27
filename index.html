@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patel Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+<style>
+    .container{
+        border: 1px solid white;
+    margin: 50px 32px;
+    padding: 38px;
+    width: 33%;
+    border-radius: 10px;
+    }
+    
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+    }
+    .left img{
+        width: 60px;
+        filter: invert(100);
+    }
+    .left div{
+        text-align: center;
+        line-height:0px;
+        font-size: 11px;
+        
+    }
+    .left {
+    display: inline-block;
+    position: absolute;
+        left: 34px;
+        top: 20px;
+        /* border: 2px solid red; */
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 38px;
+        /* border: 2px solid yellow; */
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+        
+    }
+    .navbar li a{
+       
+         color: white;
+        text-decoration: none;
+        padding: 17px 12px; 
+
+    }
+    .navbar li a:hover, .navbar li a.active {
+       text-decoration:underline  ;
+       color: gray;
+  }
+  .btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+      margin: 1px 12px;
+      padding: 2px 5px;
+      border: 2px solid gray;
+      border-radius: 10px;
+      background-color: black;
+      color: white;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  .btn:hover{
+      background-color: rgb(49, 47, 47);
+  }
+  .form-group input{
+      text-align: center;
+      display: block;
+      padding: 2px;
+      width: 348px;
+      border: 2px solid black;
+      margin: 3px auto;
+      border-radius: 10px;
+      font-family: 'Baloo Bhaina 2', cursive;
+  }
+  .container h3{
+      text-align: center;
+  }
+  .container button{
+   
+    width: 29%;
+    margin: auto;
+    display: block;
+
+  }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+        <img src="img/gym.png" alt="" srcset="">
+            <div>Patel Fitness</div>
+        </div>
+        <!-- mid box for navb -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact US</a></li>
+            </ul>
+        </div>
+        <!-- right for search or else -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+    <h3>You Imagine We Develop Join Us</h3>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Contact">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email ID">
+        </div>
+        <button class="btn">submit</button>
+    </form>
+    </div>
+</body>
+
+</html>

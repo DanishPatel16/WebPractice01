@@ -1,0 +1,103 @@
+
+    .container{
+        border: 1px solid white;
+    margin: 50px 32px;
+    padding: 38px;
+    width: 33%;
+    border-radius: 10px;
+    }
+    
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+    }
+    .left img{
+        width: 60px;
+        filter: invert(100);
+    }
+    .left div{
+        text-align: center;
+        line-height:0px;
+        font-size: 11px;
+        
+    }
+    .left {
+    display: inline-block;
+    position: absolute;
+        left: 34px;
+        top: 20px;
+        /* border: 2px solid red; */
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 38px;
+        /* border: 2px solid yellow; */
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+        
+    }
+    .navbar li a{
+       
+         color: white;
+        text-decoration: none;
+        padding: 17px 12px; 
+
+    }
+    .navbar li a:hover, .navbar li a.active {
+       text-decoration:underline  ;
+       color: gray;
+  }
+  .btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+      margin: 1px 12px;
+      padding: 2px 5px;
+      border: 2px solid gray;
+      border-radius: 10px;
+      background-color: black;
+      color: white;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  .btn:hover{
+      background-color: rgb(49, 47, 47);
+  }
+  .form-group input{
+      text-align: center;
+      display: block;
+      padding: 2px;
+      width: 348px;
+      border: 2px solid black;
+      margin: 3px auto;
+      border-radius: 10px;
+      font-family: 'Baloo Bhaina 2', cursive;
+  }
+  .container h3{
+      text-align: center;
+  }
+  .container button{
+   
+    width: 29%;
+    margin: auto;
+    display: block;
+
+  }
